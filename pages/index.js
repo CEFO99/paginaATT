@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Slider from '../components/Slider'
-import { SliderData } from '../components/SliderData'
-import Instagram from '../components/Instagram'
-import Cards from '../components/Cards'
 import Why from '../components/Why'
+import Footer from '../components/Footer'
+import Adelanto from '../components/Adelanto'
 
 export default function Home() {
   return (
@@ -16,10 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero heading='Capture photography' message='I capture moments in nature and keep them alive.'/>
+      <Navbar />
+      <Hero heading='Arma tu toque' message='Hacemos crecer tu comunidad. En contacto directo con tus fans.'/>
       <Why />
-      <Slider slides={SliderData} />
-      <Instagram />
+      <Adelanto />
+      <Footer />
     </div>
   )
 }
