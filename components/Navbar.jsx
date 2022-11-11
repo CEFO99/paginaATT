@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
-            <Link href='/'>Ingresar</Link>
+            <Link href='/work'>Ingresar</Link>
           </li>
           
         </ul>

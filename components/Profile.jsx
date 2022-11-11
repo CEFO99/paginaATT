@@ -3,7 +3,7 @@ import NavBarProfile from "./NavBarProfile";
 
 function Profile() {
   return (
-    <div className="bg-slate-900 h-screen">
+    <div className="bg-slate-900">
       <NavBarProfile />
       <div className="container mx-auto p-12">
         <div className="md:flex no-wrap">
@@ -11,18 +11,12 @@ function Profile() {
             <div className="bg-white p-8 border-t-4 border-green-400 rounded-xl">
               <div className="image overflow-hidden">
                 <img
-                  className="h-auto w-full mx-auto"
-                  src="https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="text-center my-4">
-                <img
-                  className="h-28 w-28 rounded-full mx-auto"
+                  className="h-auto w-full mx-auto rounded-full"
                   src="https://cdn.australianageingagenda.com.au/wp-content/uploads/2015/06/28085920/Phil-Beckett-2-e1435107243361.jpg"
                   alt=""
                 />
               </div>
+              
               <h1 className="text-gray-900 font-bold text-xl leading-10 my-4 text-center">
                 Juan Pérez
               </h1>
